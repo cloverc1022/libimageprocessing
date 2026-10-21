@@ -1,0 +1,1 @@
+-keep class net.ajcloud.imageprocessing.ImageProcessing { *; }
