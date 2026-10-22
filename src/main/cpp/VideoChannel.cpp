@@ -6,7 +6,7 @@
 #include <cstring>
 #include <alloca.h>
 #include "VideoChannel.h"
-#include <android/log.h>
+#include "include/platform_log.h"
 
 VideoChannel::VideoChannel() {
 
@@ -22,12 +22,12 @@ VideoChannel::~VideoChannel() {
 void Log_i(const char *log, ...) {
     va_list arg;
     va_start(arg, log);
-    __android_log_vprint(ANDROID_LOG_INFO, "ImageProcessing", log, arg);
+    platform_log_info(log, arg);
     va_end(arg);
 }
 
 void x264_log_default2(void *, int i_level, const char *psz, va_list list) {
-    __android_log_vprint(ANDROID_LOG_ERROR, "X264", psz, list);
+    platform_log_error(psz, list);
 }
 
 void VideoChannel::openCodec(int width, int height, int fps, int bitrate) {

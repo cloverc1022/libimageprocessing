@@ -1,0 +1,6 @@
+D:/StudioProjects/wansviewcloud/libimageprocessing/build-ohos-arm64-v8a/CMakeFiles/imageprocessing.dir
+D:/StudioProjects/wansviewcloud/libimageprocessing/build-ohos-arm64-v8a/CMakeFiles/edit_cache.dir
+D:/StudioProjects/wansviewcloud/libimageprocessing/build-ohos-arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/StudioProjects/wansviewcloud/libimageprocessing/build-ohos-arm64-v8a/libyuv/CMakeFiles/yuv.dir
+D:/StudioProjects/wansviewcloud/libimageprocessing/build-ohos-arm64-v8a/libyuv/CMakeFiles/edit_cache.dir
+D:/StudioProjects/wansviewcloud/libimageprocessing/build-ohos-arm64-v8a/libyuv/CMakeFiles/rebuild_cache.dir
